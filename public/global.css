@@ -1,0 +1,23 @@
+:root {
+  --default-color: #404040;
+  --primary-font-color: white;
+  --primary-color: blue;
+  --secondary-color: hotpink;
+  --accent-color: turquoise;
+  --ghost-color: none;
+}
+
+body {
+  gap: 2rem;
+}
+
+pre {
+  border: 1px solid black;
+  font-size: 10px;
+}
+
+.button {
+  width: fit-content;
+  display: flex;
+  gap: 20px;
+}
